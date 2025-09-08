@@ -1,4 +1,4 @@
-vendedor = str(input())
+vendedor = input()
 salario_fixo = float(input())
 vendas = float(input())
 

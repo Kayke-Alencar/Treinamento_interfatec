@@ -1,6 +1,9 @@
-a = float(input())
-b = float(input())
-c = float(input())
+valores = input().split()
+
+a = float(valores[0])
+b = float(valores[1])
+c = float(valores[2])
+
 
 pi = 3.14159
 
@@ -18,6 +21,7 @@ trapezio = (a + b) * c / 2
 quadrado = b**2
 retangulo = a*b
 
+	
 print(f'TRIANGULO: {triangulo:.3f}')
 print(f'CIRCULO: {circulo:.3f}')
 print(f'TRAPEZIO: {trapezio:.3f}')
